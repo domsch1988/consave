@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#4a3637"
+  title_inactive_fg_color = "#c0b18b"
+  title_transmit_fg_color = "#c0b18b"
+  title_inactive_bg_color = "#4a3637"
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#4a3637:#d17b49:#7b8748:#af865a:#535c5c:#775759:#6d715e:#c0b18b:#4a3637:#d17b49:#7b8748:#af865a:#535c5c:#775759:#6d715e:#c0b18b"
+    background_image = None
+    background_darkness = 0.88
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#c0b18b"
+    foreground_color = "#c0b18b"
+    scroll_on_output = False
+    font = FuraCode Nerd Font Mono 10
+    background_color = "#1f1f1f"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
