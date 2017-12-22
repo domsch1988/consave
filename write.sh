@@ -1,6 +1,9 @@
 #! /bin/bash
+
+# Folder Creation
 mkdir -p ~/blocklets
 mkdir -p ~/.config/fish/
+
 # i3 Configuration
 cp ./dots/i3config ~/.config/i3/config
 
@@ -18,3 +21,6 @@ cp ./dots/terminatorconfig ~/.config/terminator/config
 
 # fish COnfiguration
 cp ./dots/fishconfig ~/.config/fish/config.fish
+
+# XFCE4 Terminal
+cp ./dots/xfceconfig ~/.config/xfce/terminal/terminalrc

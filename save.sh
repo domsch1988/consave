@@ -22,3 +22,6 @@ cp ~/.config/terminator/config ./dots/terminatorconfig
 cp ~/.config/fish/config.fish ./dots/fishconfig
 
 # Fonts copying and Additional fish stuff will go here
+
+#xfce4 Terminal config
+cp ~/.config/xfce4/terminal/terminalrc ./dots/xfceconfig
