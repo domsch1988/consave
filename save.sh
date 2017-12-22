@@ -8,6 +8,7 @@ cp ~/.Xresources ./dots/Xres
 
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config
+cp ~/.config/i3/lock.sh ./dots/lock
 
 # i3Bar Configuration
 
