@@ -16,3 +16,5 @@ cp ~/.config/i3blocks/config ./dots/i3blocksconfig
 # Terminator Configuration
 cp ~/.config/terminator/config ./dots/terminatorconfig
 
+# fish Configuration
+cp ~/.config/fish/config.fish ./dots/fishconfig
