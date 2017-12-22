@@ -2,6 +2,9 @@
 mkdir -p ./dots
 mkdir -p ./dots/blocklets
 
+# Xresources
+cp ~/.Xresources ./dots/Xres
+
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config
 

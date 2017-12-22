@@ -4,6 +4,9 @@
 mkdir -p ~/blocklets
 mkdir -p ~/.config/fish/
 
+# Xresources
+cp ./dots/Xres ~/.Xresources
+
 # i3 Configuration
 cp ./dots/i3config ~/.config/i3/config
 

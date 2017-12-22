@@ -1,0 +1,9 @@
+rofi.lines: 5
+rofi.font: Fira Sans Book 15
+rofi.width: 15
+rofi.color-enabled: true
+rofi.color-window: #1f1f1f, #1f1f1f, #4a3637
+rofi.color-normal: #1f1f1f, #c0b18b, #242424, #4a3637, #d17b49
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+rofi.hide-scrollbar: true
