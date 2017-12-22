@@ -26,4 +26,4 @@ cp ./dots/terminatorconfig ~/.config/terminator/config
 cp ./dots/fishconfig ~/.config/fish/config.fish
 
 # XFCE4 Terminal
-cp ./dots/xfceconfig ~/.config/xfce/terminal/terminalrc
+cp ./dots/xfceconfig ~/.config/xfce4/terminal/terminalrc
