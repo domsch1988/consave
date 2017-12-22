@@ -2,14 +2,14 @@
 mkdir -p ./dots
 mkdir -p ./dots/blocklets
 mkdir -p ./dots/fishfunc
-
+mkdir -p ./res
 # Xresources
 cp ~/.Xresources ./dots/Xres
 
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config
 cp ~/.config/i3/lock.sh ./dots/lock
-
+cp ~/blocklets/lock.png ./res/lock
 # i3Bar Configuration
 
 # i3status Configuration
