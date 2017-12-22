@@ -1,5 +1,6 @@
 #! /bin/bash
-
+mkdir -p ~/blocklets
+mkdir -p ~/.config/fish/
 # i3 Configuration
 cp ./dots/i3config ~/.config/i3/config
 
@@ -15,3 +16,5 @@ cp -ar ./dots/blocklets/* ~/blocklets/
 # Terminator Configuration
 cp ./dots/terminatorconfig ~/.config/terminator/config
 
+# fish COnfiguration
+cp ./dots/fishconfig ~/.config/fish/config.fish
