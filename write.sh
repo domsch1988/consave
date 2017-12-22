@@ -9,7 +9,7 @@ cp ./dots/i3config ~/.config/i3/config
 
 # i3blocks Configuration
 cp ./dots/i3blocksconfig ~/.config/i3blocks/config
-
+cp -ar ./dots/blocklets/* ~/blocklets/
 # .Xresources
 
 # Terminator Configuration

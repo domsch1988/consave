@@ -1,5 +1,6 @@
 #! /bin/bash
 mkdir -p ./dots
+mkdir -p ./dots/blocklets
 
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config
@@ -10,6 +11,7 @@ cp ~/.config/i3/config ./dots/i3config
 
 # i3blocks Configuration
 cp ~/.config/i3blocks/config ./dots/i3blocksconfig
+cp -ar ~/blocklets/* ./dots/blocklets/
 
 # .Xresources
 
