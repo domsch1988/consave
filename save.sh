@@ -1,6 +1,7 @@
 #! /bin/bash
 mkdir -p ./dots
 mkdir -p ./dots/blocklets
+mkdir -p ./dots/fishfunc
 
 # Xresources
 cp ~/.Xresources ./dots/Xres
@@ -23,6 +24,7 @@ cp ~/.config/terminator/config ./dots/terminatorconfig
 
 # fish Configuration
 cp ~/.config/fish/config.fish ./dots/fishconfig
+cp -ar ~/.config/fish/functions/* ./dots/fishfunc/
 
 # Fonts copying and Additional fish stuff will go here
 
