@@ -1,12 +1,12 @@
 [Configuration]
-ColorCursor=#c0c0b1b18b8b
-ColorForeground=#c0c0b1b18b8b
-ColorBackground=#1f1f1f1f1f1f
-ColorPalette=#4a4a36363737;#d1d17b7b4949;#7b7b87874848;#afaf86865a5a;#53535c5c5c5c;#777757575959;#6d6d71715e5e;#c0c0b1b18b8b;#4a4a36363737;#d1d17b7b4949;#7b7b87874848;#afaf86865a5a;#53535c5c5c5c;#777757575959;#6d6d71715e5e;#c0c0b1b18b8b
+ColorCursor=#c5c5c8c8c6c6
+ColorForeground=#c5c5c8c8c6c6
+ColorBackground=#1d1d1f1f2121
+ColorPalette=#1d1d1f1f2121;#cccc34342b2b;#191988884444;#fbfba9a92222;#39397171eded;#a3a36a6ac7c7;#39397171eded;#c5c5c8c8c6c6;#969698989696;#cccc34342b2b;#191988884444;#fbfba9a92222;#39397171eded;#a3a36a6ac7c7;#39397171eded;#ffffffffffff
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
-MiscBordersDefault=FALSE
+MiscBordersDefault=TRUE
 MiscCursorBlinks=FALSE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
 MiscDefaultGeometry=80x24

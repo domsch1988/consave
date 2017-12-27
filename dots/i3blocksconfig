@@ -56,17 +56,17 @@ signal=10
 # The type defaults to "mem" if the instance is not specified.
 [memory]
 markup=pango
-color=#c0b18b
+color=#FBA922
 label=
 separator=false
 interval=30
 
 [separator]
-color=#d17b49
+color=#A36AC7
 #align=left
 
 [memory]
-color=#d17b49
+color=#A36AC7
 label=
 instance=swap
 separator=false
@@ -78,22 +78,22 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults ito 10 for 10%).
 [separator]
-color=#535c5c
+color=#3971ED
 [disk]
-color=#535c5c
+color=#3971ED
 label=
 #instance=/mnt/data
 interval=30
 
 [separator]
-color=#7b8748
+color=#198844
 # Network interface monitoring
 #
 # If the instance is not specified, use the interface used for default route.
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
 [iface]
 #instance=wlan0
-color=#7b8748
+color=#198844
 interval=10
 separator=false
 
@@ -107,13 +107,13 @@ separator=false
 #interval=5
 
 [separator]
-color=#775759
+color=#CC342B
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-color=#775759
+color=#CC342B
 label=
 interval=10
 min_width=CPU: 100.00%
@@ -133,5 +133,6 @@ min_width=CPU: 100.00%
 # Date Time
 #
 [time]
+color=#1D1F21
 command=date '+%d.%m.%Y %H:%M'
 interval=5

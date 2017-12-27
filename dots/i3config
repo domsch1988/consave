@@ -9,9 +9,22 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Colors from Xresources
+
+set_from_resource $colorBG	background #FFFFFF
+set_from_resource $colorFG      foreground #000000
+set_from_resource $colorBlack      color0 #FFFFFF
+set_from_resource $colorRed      color1 #FF0000
+set_from_resource $colorGreen      color2 #00FF00
+set_from_resource $colorYellow      color3 #FFFF00
+set_from_resource $colorBlue      color4 #0000FF
+set_from_resource $colorMag      color5 #FFFFFF
+set_from_resource $colorCya      color6 #FFFFFF
+set_from_resource $colorWhite      color7 #000000
+
 for_window [class="^.*"] border pixel 2
-client.focused		#D17B49 #D17B49 #FFFFFF #FFFFFF #D17B49
-client.unfocused	#1F1F1F #1F1F1F #FFFFFF #FFFFFF #1F1F1F
+client.focused		$colorBlue $ColorBlue $colorBG $colorBG $colorBlue
+client.unfocused	$colorBG $colorBG $colorBG $colorBG $colorBG
 
 set $mod Mod4
 
@@ -171,12 +184,12 @@ bar {
 	position top
         status_command SCRIPT_DIR=~/blocklets i3blocks
 	colors {
-		background	#1F1F1F
+		background	$colorBG
 		statusline	#c0b28b
 		separator	#4a3637
-		focused_workspace	#d17b49 #1F1F1F #d17b29
-		active_workspace	#4a3637 #4a3637 #d17b49
-		inactive_workspace	#4a3637 #1F1F1F #4a3637
+		focused_workspace	$colorFG $colorBlue $colorFG
+		active_workspace	$colorFG $colorBG $colorFG
+		inactive_workspace	$colorBG $colorWhite $colorBG
 	}
 }
 
