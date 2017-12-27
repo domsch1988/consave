@@ -20,6 +20,9 @@ cp ./dots/i3blocksconfig ~/.config/i3blocks/config
 cp -ar ./dots/blocklets/* ~/blocklets/
 # .Xresources
 
+# Compton Congi
+cp ./dots/comptonconf ~/.config/compton.conf
+
 # Terminator Configuration
 cp ./dots/terminatorconfig ~/.config/terminator/config
 

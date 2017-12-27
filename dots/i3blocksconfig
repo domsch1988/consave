@@ -133,6 +133,5 @@ min_width=CPU: 100.00%
 # Date Time
 #
 [time]
-color=#1D1F21
 command=date '+%d.%m.%Y %H:%M'
 interval=5

@@ -22,7 +22,7 @@ set_from_resource $colorMag      color5 #FFFFFF
 set_from_resource $colorCya      color6 #FFFFFF
 set_from_resource $colorWhite      color7 #000000
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 client.focused		$colorBlue $ColorBlue $colorBG $colorBG $colorBlue
 client.unfocused	$colorBG $colorBG $colorBG $colorBG $colorBG
 
@@ -200,4 +200,4 @@ gaps inner 10
 bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/lock.sh
 
 exec --no-startup-id nitrogen --restore
-exec_always --no-startup-id xcompmgr -c -f -n
+exec_always --no-startup-id xcompmgr -c -f -n -r5 -t-5 -l-5 -o.55

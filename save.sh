@@ -27,6 +27,9 @@ cp ~/.config/terminator/config ./dots/terminatorconfig
 cp ~/.config/fish/config.fish ./dots/fishconfig
 cp -ar ~/.config/fish/functions/* ./dots/fishfunc/
 
+# Compton config
+cp ~/.config/compton.conf ./dots/comptonconf
+
 # Fonts copying and Additional fish stuff will go here
 
 #xfce4 Terminal config
