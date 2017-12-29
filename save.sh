@@ -3,8 +3,13 @@ mkdir -p ./dots
 mkdir -p ./dots/blocklets
 mkdir -p ./dots/fishfunc
 mkdir -p ./res
+mkdir -p ./dots/yabar
+
 # Xresources
 cp ~/.Xresources ./dots/Xres
+
+# Yabar Stuff
+cp -ar ~/.config/yabar/* ./dots/yabar/
 
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config

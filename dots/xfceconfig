@@ -30,5 +30,5 @@ MiscSlimTabs=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 FontName=InconsolataLGC Nerd Font Medium 11
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0,700000
+BackgroundDarkness=0,790000
 

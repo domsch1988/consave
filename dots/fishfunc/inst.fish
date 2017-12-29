@@ -1,4 +1,4 @@
 # Defined in - @ line 0
-function inst --description 'alias inst=sudo zypper in'
-	sudo zypper in $argv;
+function inst --description 'alias inst=sudo pacman -S'
+	sudo pacman -S $argv;
 end
