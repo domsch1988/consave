@@ -4,14 +4,14 @@ glx-swap-method = "-1";
 vsync = "opengl-swc";
 
 
-shadow = true;
+shadow = false;
 no-dnd-shadow = true;
 no-dock-shadow = true;
 clear-shadow = true;
 shadow-radius = 7;
 shadow-offset-x = -7;
 shadow-offset-y = -7;
-xinerama-shadow-crop = true;
+#xinerama-shadow-crop = true;
 shadow-ignore-shaped = true;
 
 blur-background = true;

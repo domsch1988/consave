@@ -44,12 +44,15 @@ markup=none
 
 # See the script for details.
 [volume]
-label=VOL
-#label=♪
+#markup=pango
+label=
 instance=Master
 #instance=PCM
 interval=once
 signal=10
+
+[separator]
+color=#FBA922
 
 # Memory usage
 #
@@ -116,7 +119,7 @@ color=#CC342B
 color=#CC342B
 label=
 interval=10
-min_width=CPU: 100.00%
+#min_width=CPU: 100.00%
 #separator=false
 
 #[load_average]
