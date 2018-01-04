@@ -1,0 +1,5 @@
+! Rofi
+rofi.color-window: #1e0b0f, #1e0b0f, #5E5656
+rofi.color-normal: #1e0b0f, #98a3a1, #1e0b0f, #5E5656, #1e0b0f
+rofi.color-active: #1e0b0f, #98a3a1, #1e0b0f, #5E5656, #1e0b0f
+rofi.color-urgent: #1e0b0f, #344854,     #1e0b0f, #344854,  #98a3a1

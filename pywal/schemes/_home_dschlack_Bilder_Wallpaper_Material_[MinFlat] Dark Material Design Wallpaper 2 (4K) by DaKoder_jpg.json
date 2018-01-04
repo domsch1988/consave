@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/Material/[MinFlat] Dark Material Design Wallpaper 2 (4K) by DaKoder.jpg",
+    "special": {
+        "background": "#151a1a",
+        "foreground": "#dd7369",
+        "cursor": "#dd7369"
+    },
+    "colors": {
+        "color0": "#151a1a",
+        "color1": "#84291F",
+        "color2": "#963329",
+        "color3": "#B03A2E",
+        "color4": "#C13F32",
+        "color5": "#944239",
+        "color6": "#B14338",
+        "color7": "#dd7369",
+        "color8": "#9a5049",
+        "color9": "#84291F",
+        "color10": "#963329",
+        "color11": "#B03A2E",
+        "color12": "#C13F32",
+        "color13": "#944239",
+        "color14": "#B14338",
+        "color15": "#dd7369"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/rainbow.jpg",
+    "special": {
+        "background": "#0A0908",
+        "foreground": "#888080",
+        "cursor": "#888080"
+    },
+    "colors": {
+        "color0": "#0A0908",
+        "color1": "#4D241C",
+        "color2": "#274C1F",
+        "color3": "#535724",
+        "color4": "#25274E",
+        "color5": "#561F50",
+        "color6": "#1E5057",
+        "color7": "#888080",
+        "color8": "#5f5959",
+        "color9": "#4D241C",
+        "color10": "#274C1F",
+        "color11": "#535724",
+        "color12": "#25274E",
+        "color13": "#561F50",
+        "color14": "#1E5057",
+        "color15": "#888080"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/Material/Material Wallpaper 1080.png",
+    "special": {
+        "background": "#131515",
+        "foreground": "#c67a75",
+        "cursor": "#c67a75"
+    },
+    "colors": {
+        "color0": "#131515",
+        "color1": "#BD3E37",
+        "color2": "#C43F37",
+        "color3": "#98423D",
+        "color4": "#BE433B",
+        "color5": "#C0473F",
+        "color6": "#9E4540",
+        "color7": "#c67a75",
+        "color8": "#8a5551",
+        "color9": "#BD3E37",
+        "color10": "#C43F37",
+        "color11": "#98423D",
+        "color12": "#BE433B",
+        "color13": "#C0473F",
+        "color14": "#9E4540",
+        "color15": "#c67a75"
+    }
+}

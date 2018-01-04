@@ -5,12 +5,22 @@ mkdir -p ./dots/fishfunc
 mkdir -p ./res
 mkdir -p ./dots/yabar
 mkdir -p ./omz
+mkdir -p ./themes
+mkdir -p ./icons
+mkdir -p ./pywal
 
 # Xresources
 cp ~/.Xresources ./dots/Xres
 
+# Themes and Icons
+cp -ar ~/.themes/* ./themes/
+cp -ar ~/.icons/* ./icons
+
 # Yabar Stuff
 cp -ar ~/.config/yabar/* ./dots/yabar/
+
+# pywal
+cp -ar ~/.cache/wal/* ./pywal
 
 # ZSH Configuration
 cp -ar ~/.oh-my-zsh/* ./omz/
@@ -20,6 +30,7 @@ cp ~/.zshrc ./zshrc
 cp ~/.config/i3/config ./dots/i3config
 cp ~/.config/i3/lock.sh ./dots/lock
 cp ~/blocklets/lock.png ./res/lock
+
 # i3Bar Configuration
 
 # i3status Configuration

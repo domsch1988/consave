@@ -5,6 +5,17 @@ mkdir -p ~/blocklets
 mkdir -p ~/.config/fish/
 mkdir -p ~/.congig/yabar/
 mkdir -p ~/.oh-my-zsh
+mkdir -p ~/.themes
+mkdir -p ~/.icons
+mkdir -p ~/.cache
+mkdir -p ~/.cache/wal
+
+# Themes and Icons
+cp -ar ./themes/* ~/.themes/
+cp -ar ./icons/* ~/.icons/
+
+# pywal
+cp -ar ./pywal ~/.cache/wal
 
 # Xresources
 cp ./dots/Xres ~/.Xresources

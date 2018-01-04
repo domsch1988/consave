@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/firewatch-widescreen-wallpaper-59148-60932-hd-wallpapers.jpg",
+    "special": {
+        "background": "#0f3b42",
+        "foreground": "#b6dcd7",
+        "cursor": "#b6dcd7"
+    },
+    "colors": {
+        "color0": "#0f3b42",
+        "color1": "#72C4B7",
+        "color2": "#299DC4",
+        "color3": "#34AACB",
+        "color4": "#54B9CC",
+        "color5": "#72C5CE",
+        "color6": "#CFD5AE",
+        "color7": "#b6dcd7",
+        "color8": "#7f9a96",
+        "color9": "#72C4B7",
+        "color10": "#299DC4",
+        "color11": "#34AACB",
+        "color12": "#54B9CC",
+        "color13": "#72C5CE",
+        "color14": "#CFD5AE",
+        "color15": "#b6dcd7"
+    }
+}

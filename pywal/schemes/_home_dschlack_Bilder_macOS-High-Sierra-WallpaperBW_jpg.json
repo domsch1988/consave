@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/macOS-High-Sierra-WallpaperBW.jpg",
+    "special": {
+        "background": "#0C0C0C",
+        "foreground": "#969696",
+        "cursor": "#969696"
+    },
+    "colors": {
+        "color0": "#0C0C0C",
+        "color1": "#4B4B4B",
+        "color2": "#535353",
+        "color3": "#5C5C5C",
+        "color4": "#636363",
+        "color5": "#6C6C6C",
+        "color6": "#737373",
+        "color7": "#9b9b9b",
+        "color8": "#6c6c6c",
+        "color9": "#919191",
+        "color10": "#4B4B4B",
+        "color11": "#535353",
+        "color12": "#5C5C5C",
+        "color13": "#636363",
+        "color14": "#6C6C6C",
+        "color15": "#969696",
+        "color16": "#7A7A7A",
+        "color17": "#838383"
+    }
+}

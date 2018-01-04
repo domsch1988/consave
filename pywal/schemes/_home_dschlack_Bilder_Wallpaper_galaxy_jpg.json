@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/galaxy.jpg",
+    "special": {
+        "background": "#0E060C",
+        "foreground": "#8bb5ae",
+        "cursor": "#8bb5ae"
+    },
+    "colors": {
+        "color0": "#0E060C",
+        "color1": "#365656",
+        "color2": "#525A60",
+        "color3": "#AD4B46",
+        "color4": "#568D74",
+        "color5": "#D6A06D",
+        "color6": "#5047A1",
+        "color7": "#8bb5ae",
+        "color8": "#617e79",
+        "color9": "#365656",
+        "color10": "#525A60",
+        "color11": "#AD4B46",
+        "color12": "#568D74",
+        "color13": "#D6A06D",
+        "color14": "#5047A1",
+        "color15": "#8bb5ae"
+    }
+}

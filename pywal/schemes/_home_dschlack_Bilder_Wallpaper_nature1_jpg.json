@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/nature1.jpg",
+    "special": {
+        "background": "#1d121b",
+        "foreground": "#f3ede2",
+        "cursor": "#f3ede2"
+    },
+    "colors": {
+        "color0": "#1d121b",
+        "color1": "#8A7562",
+        "color2": "#9B8973",
+        "color3": "#C2A577",
+        "color4": "#AA9F90",
+        "color5": "#D0C2B1",
+        "color6": "#E5D9CB",
+        "color7": "#f3ede2",
+        "color8": "#aaa59e",
+        "color9": "#8A7562",
+        "color10": "#9B8973",
+        "color11": "#C2A577",
+        "color12": "#AA9F90",
+        "color13": "#D0C2B1",
+        "color14": "#E5D9CB",
+        "color15": "#f3ede2"
+    }
+}
