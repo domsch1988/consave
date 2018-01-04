@@ -1,29 +1,28 @@
 [global_config]
-  title_transmit_bg_color = "#4a3637"
-  title_inactive_fg_color = "#c0b18b"
-  title_transmit_fg_color = "#c0b18b"
-  title_inactive_bg_color = "#4a3637"
+  title_inactive_bg_color = "#38252c"
+  title_inactive_fg_color = "#f8f8f8"
+  title_transmit_bg_color = "#171717"
+  title_transmit_fg_color = "#f8f8f8"
 [keybindings]
-[profiles]
-  [[default]]
-    scrollbar_position = hidden
-    palette = "#4a3637:#d17b49:#7b8748:#af865a:#535c5c:#775759:#6d715e:#c0b18b:#4a3637:#d17b49:#7b8748:#af865a:#535c5c:#775759:#6d715e:#c0b18b"
-    background_image = None
-    background_darkness = 0.88
-    background_type = transparent
-    use_system_font = False
-    cursor_color = "#c0b18b"
-    foreground_color = "#c0b18b"
-    scroll_on_output = False
-    font = FuraCode Nerd Font Mono 10
-    background_color = "#1f1f1f"
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
       profile = default
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#171717"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#f8f8f8"
+    font = RobotoMono Nerd Font 11
+    foreground_color = "#f8f8f8"
+    palette = "#171717:#ef2929:#97d01a:#ffa800:#16b1fb:#ff2491:#0fdcb6:#ebebeb:#38252c:#ff0000:#76b639:#e1a126:#289cd5:#ff2491:#0a9b81:#f8f8f8"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
