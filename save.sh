@@ -4,12 +4,17 @@ mkdir -p ./dots/blocklets
 mkdir -p ./dots/fishfunc
 mkdir -p ./res
 mkdir -p ./dots/yabar
+mkdir -p ./omz
 
 # Xresources
 cp ~/.Xresources ./dots/Xres
 
 # Yabar Stuff
 cp -ar ~/.config/yabar/* ./dots/yabar/
+
+# ZSH Configuration
+cp -ar ~/.oh-my-zsh/* ./omz/
+cp ~/.zshrc ./zshrc
 
 # i3 Configuration
 cp ~/.config/i3/config ./dots/i3config
