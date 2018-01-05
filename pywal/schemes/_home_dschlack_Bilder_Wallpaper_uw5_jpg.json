@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/uw5.jpg",
+    "special": {
+        "background": "#141d18",
+        "foreground": "#e1edf7",
+        "cursor": "#e1edf7"
+    },
+    "colors": {
+        "color0": "#141d18",
+        "color1": "#AA9854",
+        "color2": "#C9B168",
+        "color3": "#576F8E",
+        "color4": "#73A0D0",
+        "color5": "#9BB0C5",
+        "color6": "#ACD0EF",
+        "color7": "#e1edf7",
+        "color8": "#9da5ac",
+        "color9": "#AA9854",
+        "color10": "#C9B168",
+        "color11": "#576F8E",
+        "color12": "#73A0D0",
+        "color13": "#9BB0C5",
+        "color14": "#ACD0EF",
+        "color15": "#e1edf7"
+    }
+}

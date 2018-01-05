@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/water1.jpg",
+    "special": {
+        "background": "#010A18",
+        "foreground": "#40b4e0",
+        "cursor": "#40b4e0"
+    },
+    "colors": {
+        "color0": "#010A18",
+        "color1": "#5B4447",
+        "color2": "#C2815C",
+        "color3": "#01528E",
+        "color4": "#03609F",
+        "color5": "#016EB1",
+        "color6": "#0E7AB8",
+        "color7": "#40b4e0",
+        "color8": "#2c7d9c",
+        "color9": "#5B4447",
+        "color10": "#C2815C",
+        "color11": "#01528E",
+        "color12": "#03609F",
+        "color13": "#016EB1",
+        "color14": "#0E7AB8",
+        "color15": "#40b4e0"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/land2.jpg",
+    "special": {
+        "background": "#12151b",
+        "foreground": "#e4e9ec",
+        "cursor": "#e4e9ec"
+    },
+    "colors": {
+        "color0": "#12151b",
+        "color1": "#66827E",
+        "color2": "#6D9093",
+        "color3": "#94ACAB",
+        "color4": "#BAC6B7",
+        "color5": "#B5C7CB",
+        "color6": "#CED8DA",
+        "color7": "#e4e9ec",
+        "color8": "#9fa3a5",
+        "color9": "#66827E",
+        "color10": "#6D9093",
+        "color11": "#94ACAB",
+        "color12": "#BAC6B7",
+        "color13": "#B5C7CB",
+        "color14": "#CED8DA",
+        "color15": "#e4e9ec"
+    }
+}

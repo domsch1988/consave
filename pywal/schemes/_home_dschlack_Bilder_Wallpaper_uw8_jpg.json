@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/uw8.jpg",
+    "special": {
+        "background": "#011502",
+        "foreground": "#b9c0b9",
+        "cursor": "#b9c0b9"
+    },
+    "colors": {
+        "color0": "#011502",
+        "color1": "#586758",
+        "color2": "#5F6D60",
+        "color3": "#687569",
+        "color4": "#788578",
+        "color5": "#7F8980",
+        "color6": "#8A938B",
+        "color7": "#b9c0b9",
+        "color8": "#818681",
+        "color9": "#586758",
+        "color10": "#5F6D60",
+        "color11": "#687569",
+        "color12": "#788578",
+        "color13": "#7F8980",
+        "color14": "#8A938B",
+        "color15": "#b9c0b9"
+    }
+}

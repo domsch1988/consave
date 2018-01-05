@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/uw3.jpg",
+    "special": {
+        "background": "#211106",
+        "foreground": "#8d9da8",
+        "cursor": "#8d9da8"
+    },
+    "colors": {
+        "color0": "#211106",
+        "color1": "#91390F",
+        "color2": "#A85116",
+        "color3": "#D1691A",
+        "color4": "#A26E4D",
+        "color5": "#E89825",
+        "color6": "#EBC44F",
+        "color7": "#8d9da8",
+        "color8": "#626d75",
+        "color9": "#91390F",
+        "color10": "#A85116",
+        "color11": "#D1691A",
+        "color12": "#A26E4D",
+        "color13": "#E89825",
+        "color14": "#EBC44F",
+        "color15": "#8d9da8"
+    }
+}

@@ -7,7 +7,8 @@
   transition-duration: 0.2s; }
 
 stage {
-    font-family: sfns display, product sans, helvetica, open sans, source sans pro, segoe ui, ubuntu, nokia pure text, lucida grande, cantarell, sans-serif;
+    /*font-family: sfns display, product sans, helvetica, open sans, source sans pro, segoe ui, ubuntu, nokia pure text, lucida grande, cantarell, sans-serif;*/
+    font-family: aller sans;
     font-size: 10.5pt;
     color: #333;}
 
@@ -730,10 +731,10 @@ StScrollBar {
  ***********/
 #panel {
     background-gradient-direction:none;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.3);
 /*    background-color: rgba(46,51,56,0.9);
     border:1px solid rgba(200,200,200,.5);*/
-    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
     border: 0px solid rgba(90,105,111,0.5);
  /*	   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.15);*/
     border-top:0px;border-right:0px;border-left:0px;
@@ -744,7 +745,7 @@ StScrollBar {
     border-color: transparent;
     box-shadow: inset 0px rgba(0,0,0,0)}
 #panel:overview .panel-button {
-      color: rgba(255,255,255,.5);
+      color: rgba(255,255,255,1);
       border-radius: 0px 0px 4px 4px}
 #panel:overview .panel-button:hover,
 #panel:overview .panel-button:active {color:white}
@@ -777,7 +778,7 @@ StScrollBar {
 -natural-hpadding: 6px;/*jarak item2 panel def 12px*/
     -minimum-hpadding: 4px;
     font-weight: normal;
-    color: #333;/*tulisan toolbar scr umum*/
+    color: #FFFFFF;/*tulisan toolbar scr umum*/
     transition-duration: 200ms;/*nonstatus*/}
     #panel .panel-button .app-menu-icon {
       -st-icon-style: symbolic;
@@ -785,8 +786,8 @@ StScrollBar {
       margin-right: 4px; }
     #panel .panel-button:hover {
     background-color: transparent;
-    color: #5294e2;
-    text-shadow:gray 0px 0px 0px;}
+    color: #FFFFFF;
+    text-shadow:gray 1px 1px 1px;}
 
 /* Remove Shadows from Panel-buttons for GNOME 3.26 (fix from umayanga code) */
 #panel .panel-button .system-status-icon,
@@ -855,22 +856,27 @@ StScrollBar {
  * Calendar popover *
  ********************/
 #calendarArea {
+  background-color: rgba(255,255,255,0.2);
   padding: 0.75em 1.0em; }
 
 .calendar {
+  background-color: rgba(255,255,255,0.2);
   margin-bottom: 1em; }
 
 .calendar,
 .datemenu-today-button,
 .datemenu-displays-box,
 .message-list-sections {
+  background-color: rgba(255,255,255,0.2);
   margin: 0 0.4em; }
 
 .datemenu-calendar-column {
+  background-color: rgba(255,255,255,0.2);
   spacing: 0.5em;
   border: none; }
 
 .datemenu-displays-section {
+  background-color: rgba(255,255,255,0.2);
   padding-bottom: 3em; }
 
 .datemenu-today-button,
@@ -905,7 +911,7 @@ StScrollBar {
   .events-section-title:focus {
     text-shadow: 0 1px rgba(255, 255, 255, 0);
     color: #5c616c;
-    background-color: white;
+    background-color: rgba(255,255,255,0.2);
     border: 1px solid #cfd6e6;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.05); }
   .datemenu-today-button:active,
@@ -1017,7 +1023,7 @@ StScrollBar {
 .calendar-today:focus,
 .calendar-today:hover {
   font-weight: bold;
-  color: #ffffff;
+  color: rgba(255,255,255,0.2);
   background-color: #5294e2;
   border-width: 0; }
 
@@ -1026,7 +1032,7 @@ StScrollBar {
   background-image: url("common-assets/misc/calendar-today.svg"); }
 
 .calendar-today.calendar-day-with-events {
-  color: #ffffff; }
+  color: rgba(255,255,255,0.2); }
 
 .calendar-other-month-day {
   color: rgba(92, 97, 108, 0.3);
@@ -1495,11 +1501,11 @@ border: 1px solid #dcdfe3; }
   background-color: rgba(19, 25, 28, 0.01);
   box-shadow: inset 0 2px 0 #13191c; }
 #dashtodockContainer.bottom:overview #dash {
-  background-color: rgba(19, 25, 28, 0.01);
-  box-shadow: inset 0 1px 0 rgba(236, 239, 241, 0.2); }
+  background-color: rgba(255, 255, 255, 1);
+  /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.0);*/ }
 #dashtodockContainer.bottom #dash {
-  background-color: rgba(19, 25, 28, 0.01);
-  box-shadow: inset 0 -2px 0 #13191c; }
+  background-color: rgba(255, 255, 255, 1);
+  /*box-shadow: inset 0 -2px 0 #FFFFFF;*/ }
 #dashtodockContainer.left:overview #dash {
   background-color: rgba(19, 25, 28, 0.01);
   box-shadow: inset -1px 0 0 rgba(236, 239, 241, 0.2); }
@@ -1516,6 +1522,11 @@ border: 1px solid #dcdfe3; }
   background: transparent; }
 #dashtodockContainer .app-well-app .overview-icon {
   background-size: contain; }
+#dashtodockContainer{
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 15px;
+  box-shadow: none;
+}
 
 #dashtodockContainer.top .app-well-app.running1 .overview-icon,
 #dashtodockContainer.extended.top .app-well-app.running1 .overview-icon {
@@ -1630,7 +1641,7 @@ border: 1px solid #dcdfe3; }
 .app-view-controls {
   width: 344px;
   padding-bottom: 24px;
-  background-color: rgba(0, 0, 0, 0.01) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
   box-shadow: inset 0 1px 0 rgba(236, 239, 241, 0.2); }
 
 .app-view-control {
@@ -1845,7 +1856,7 @@ border: 1px solid #dcdfe3; }
 #workspacestodockContainer,
 #workspacestodockContainer:overview,
 #workspacestodockContainer.fullheight:overview {
-  background-color: rgba(19, 25, 28, 0.01); }
+  background-color: rgba(255, 255, 255, 0.01); }
   #workspacestodockContainer .workspace-thumbnails,
   #workspacestodockContainer:overview .workspace-thumbnails,
   #workspacestodockContainer.fullheight:overview .workspace-thumbnails {

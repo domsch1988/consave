@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/city1.jpg",
+    "special": {
+        "background": "#1b0f1c",
+        "foreground": "#f3e6de",
+        "cursor": "#f3e6de"
+    },
+    "colors": {
+        "color0": "#1b0f1c",
+        "color1": "#98778A",
+        "color2": "#A9939C",
+        "color3": "#978DA7",
+        "color4": "#D6A7A4",
+        "color5": "#FBE0B5",
+        "color6": "#AAAED5",
+        "color7": "#f3e6de",
+        "color8": "#aaa19b",
+        "color9": "#98778A",
+        "color10": "#A9939C",
+        "color11": "#978DA7",
+        "color12": "#D6A7A4",
+        "color13": "#FBE0B5",
+        "color14": "#AAAED5",
+        "color15": "#f3e6de"
+    }
+}

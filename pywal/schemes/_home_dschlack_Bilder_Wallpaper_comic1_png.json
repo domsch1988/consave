@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/comic1.png",
+    "special": {
+        "background": "#0c0a12",
+        "foreground": "#ab98a2",
+        "cursor": "#ab98a2"
+    },
+    "colors": {
+        "color0": "#0c0a12",
+        "color1": "#2E2B4F",
+        "color2": "#55384C",
+        "color3": "#544842",
+        "color4": "#645057",
+        "color5": "#BC4132",
+        "color6": "#985E5E",
+        "color7": "#ab98a2",
+        "color8": "#776a71",
+        "color9": "#2E2B4F",
+        "color10": "#55384C",
+        "color11": "#544842",
+        "color12": "#645057",
+        "color13": "#BC4132",
+        "color14": "#985E5E",
+        "color15": "#ab98a2"
+    }
+}

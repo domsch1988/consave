@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/dschlack/Bilder/Wallpaper/paint1.jpg",
+    "special": {
+        "background": "#2c0600",
+        "foreground": "#e9e1db",
+        "cursor": "#e9e1db"
+    },
+    "colors": {
+        "color0": "#2c0600",
+        "color1": "#956E57",
+        "color2": "#9D856F",
+        "color3": "#A98975",
+        "color4": "#B79C8B",
+        "color5": "#C8B3A6",
+        "color6": "#D4C4BA",
+        "color7": "#e9e1db",
+        "color8": "#a39d99",
+        "color9": "#956E57",
+        "color10": "#9D856F",
+        "color11": "#A98975",
+        "color12": "#B79C8B",
+        "color13": "#C8B3A6",
+        "color14": "#D4C4BA",
+        "color15": "#e9e1db"
+    }
+}
