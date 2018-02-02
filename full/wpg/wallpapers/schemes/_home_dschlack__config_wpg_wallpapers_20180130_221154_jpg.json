@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/20180130_221154.jpg",
+
+    "special": {
+        "background": "#07070A",
+        "foreground": "#f4fefd",
+        "cursor": "#cdd7d5"
+    },
+    "colors": {
+        "color0": "#07070A",
+        "color1": "#936B59",
+        "color2": "#CA9773",
+        "color3": "#357689",
+        "color4": "#589CAA",
+        "color5": "#47A3B4",
+        "color6": "#68CEDC",
+        "color7": "#cdd7d5",
+        "color8": "#15151f",
+        "color9": "#e2916d",
+        "color10": "#fec382",
+        "color11": "#42bcdf",
+        "color12": "#68e4fd",
+        "color13": "#51f0fe",
+        "color14": "#72fefe",
+        "color15": "#f4fefd"
+    }
+}

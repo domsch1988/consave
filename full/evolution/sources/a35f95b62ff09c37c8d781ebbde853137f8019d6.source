@@ -1,0 +1,14 @@
+[Data Source]
+DisplayName=dominik.schlack@haubner.com
+Enabled=true
+Parent=77e8c4f30001eba280d5a52f3763a1cd22cc65e7
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Mail Account]
+BackendName=ews
+IdentityUid=04c8fac42bf6066ca8107ab4fa1b827ac5208a96
+ArchiveFolder=
+NeedsInitialSetup=false

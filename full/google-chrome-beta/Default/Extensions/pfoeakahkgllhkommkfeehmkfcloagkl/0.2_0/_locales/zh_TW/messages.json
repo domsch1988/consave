@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Google Fusion Tables 讓您的資料發揮最大妙用"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google 雲端硬碟中的 Fusion Tables (實驗性)"
+   }
+}

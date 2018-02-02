@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ETableState state-version="0.100000000000000">
+  <column source="0" expansion="1.000000000000000"/>
+  <column source="3" expansion="1.000000000000000"/>
+  <column source="1" expansion="1.000000000000000"/>
+  <column source="14" expansion="1.000000000000000"/>
+  <column source="5" expansion="2.248192771084337"/>
+  <column source="7" expansion="0.375903614457831"/>
+  <column source="13" expansion="0.375903614457831"/>
+  <grouping>
+    <leaf column="7" ascending="false"/>
+  </grouping>
+</ETableState>

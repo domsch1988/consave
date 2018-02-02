@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Αξιοποιήστε περισσότερο τα δεδομένα με τον Συνδυασμό πινάκων Google."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Συνδυασμός πινάκων στο Google Drive (σε πειραματικό στάδιο)"
+   }
+}

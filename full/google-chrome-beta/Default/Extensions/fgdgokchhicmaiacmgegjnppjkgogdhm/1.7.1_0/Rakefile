@@ -1,0 +1,18 @@
+require 'rake/clean'
+
+COMMON_DEPS = ["PicMonkey_128.png"]
+
+def AppZip(out, manifest)
+    file out => [manifest] + COMMON_DEPS do |t|
+        sh "zip -r #{t.name} #{t.prerequisites[1..-1].join(' ')}"
+        sh "cp #{manifest} manifest.json"
+        sh "zip -r #{t.name} manifest.json"
+        sh "rm manifest.json"
+    end
+    CLEAN.add(out)
+    out
+end
+
+task :default => AppZip('chrome_app_prod.zip', 'manifest_prod.json')
+task :default => AppZip('chrome_app_dev.zip', 'manifest_dev.json')
+task :default => AppZip('chrome_app_qa.zip', 'manifest_qa.json')

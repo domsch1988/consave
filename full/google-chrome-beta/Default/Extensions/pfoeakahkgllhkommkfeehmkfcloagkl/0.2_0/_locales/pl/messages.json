@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Lepiej wykorzystuj dane dzięki Google Fusion Tables."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Fusion Tables na Dysku Google (w fazie testów)"
+   }
+}

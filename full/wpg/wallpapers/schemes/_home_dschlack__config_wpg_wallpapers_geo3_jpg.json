@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/geo3.jpg",
+
+    "special": {
+        "background": "#050A15",
+        "foreground": "#fef9ec",
+        "cursor": "#e7dbd0"
+    },
+    "colors": {
+        "color0": "#050A15",
+        "color1": "#847B74",
+        "color2": "#988C7A",
+        "color3": "#9C9286",
+        "color4": "#A99A87",
+        "color5": "#B6A791",
+        "color6": "#CAB6A1",
+        "color7": "#e7dbd0",
+        "color8": "#0b1733",
+        "color9": "#caaa91",
+        "color10": "#e2c293",
+        "color11": "#e5c6a0",
+        "color12": "#f4cf9f",
+        "color13": "#fedea8",
+        "color14": "#fee8b6",
+        "color15": "#fef9ec"
+    }
+}

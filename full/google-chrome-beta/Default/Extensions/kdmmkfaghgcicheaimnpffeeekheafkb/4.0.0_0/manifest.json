@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.homestyler.com/floorplan"
+      },
+      "urls": [ "http://www.homestyler.com/floorplan" ]
+   },
+   "description": "Best Interior Design Tool! EasyHome Homestyler is free and easy to get started.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD14qvyCvCpI6dD8hoIwaF+FZQWxa2+w6unQBKpwklo4DE9N5AlwDUMYg7YMYH+VaIS3UzMk26Nf8N0bac2XksJf8+GQk3mai95YbVesZNuwnteBrPV4lzXX+12ArUy1h0SletrCxieSJoe0Qyr3FxjltRpKcPhBgmDiJ/J0lc5kwIDAQAB",
+   "manifest_version": 2,
+   "name": "EasyHome Homestyler",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.0"
+}

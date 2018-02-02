@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Hankige rohkem andmeid Google'i risttabelite abil."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Risttabelid (katseline)"
+   }
+}

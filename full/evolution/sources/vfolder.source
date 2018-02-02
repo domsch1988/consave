@@ -1,0 +1,15 @@
+# Special built-in mail store.
+
+[Data Source]
+DisplayName=Search Folders
+Enabled=true
+Parent=
+
+[Mail Account]
+BackendName=vfolder
+IdentityUid=self
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Vfolder Backend]
+FilterInbox=true

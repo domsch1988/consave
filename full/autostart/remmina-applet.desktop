@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Remmina-Applet
+Comment=Mit dem Applet-Menü zur entfernten Arbeitsflächen verbinden
+Icon=remmina
+Exec=remmina -i
+Terminal=false
+Type=Application
+Hidden=false

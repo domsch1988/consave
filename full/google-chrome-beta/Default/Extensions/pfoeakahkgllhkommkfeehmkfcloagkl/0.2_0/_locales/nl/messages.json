@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Haal meer uit gegevens met Google Fushion Tables"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Fusion Tables in Google Drive (experimenteel)"
+   }
+}

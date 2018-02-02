@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/[MinFlat]_Dark_Material_Design_Wallpaper_1_(4K)_by_DaKoder.jpg",
+
+    "special": {
+        "background": "#181818",
+        "foreground": "#fecac1",
+        "cursor": "#e09992"
+    },
+    "colors": {
+        "color0": "#181818",
+        "color1": "#6A4D4A",
+        "color2": "#983429",
+        "color3": "#B03A2E",
+        "color4": "#C13F32",
+        "color5": "#90443C",
+        "color6": "#B0453A",
+        "color7": "#e09992",
+        "color8": "#2a2a2a",
+        "color9": "#b26c65",
+        "color10": "#f5432f",
+        "color11": "#fe4632",
+        "color12": "#fe4a35",
+        "color13": "#e5584a",
+        "color14": "#fe5441",
+        "color15": "#fecac1"
+    }
+}

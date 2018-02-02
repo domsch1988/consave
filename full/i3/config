@@ -1,0 +1,236 @@
+# i3 config file (v4)
+#
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+set $mod Mod4
+set $alt Mod1
+set $coloract "#576306"
+set $colorin "#313703"
+set_from_resource $white i3wm.color15 "#657b83"
+set_from_resource $split i3wm.color10 "#859900"
+set_from_resource $coloru i3wm.color2 "#859900"
+
+# Workspace set
+#
+set $ws1 1 
+set $ws2 2 
+set $ws3 3 
+set $ws4 4
+set $ws5 5
+set $ws6 6 
+set $ws7 7 
+set $ws8 8
+set $ws9 9
+set $ws10 10
+
+for_window [class="^.*"] border pixel 0
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:FantasqueSansMono Nerd Font 12
+
+gaps outer 0
+gaps inner 8
+new_window pixel 3
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+t exec terminator
+bindsym $mod+Return exec terminator 
+
+# kill focused window
+bindsym $mod+q kill
+
+# start dmenu (a program launcher)
+bindsym $alt+F2 exec rofi -show run
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+s split v
+
+# split in vertical orientation
+bindsym $mod+v split h
+
+# enter fullscreen mode for the focused container
+bindsym $mod+c fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+# bindsym $mod+s layout stacking
+bindsym $mod+Shift+t layout tabbed
+bindsym $mod+Shift+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space exec rofi -show run
+
+# focus the parent container
+bindsym $mod+p focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+#
+
+# exec keybindings
+bindsym --release Print exec scrot
+bindsym --release Shift+Print exec scrot -s
+bindsym $mod+f exec thunar
+bindsym $mod+w exec google-chrome-stable
+bindsym $mod+m exec urxvt -e ncmpcpp
+bindsym $mod+$alt+t exec wpg -m
+bindsym $alt+Tab exec rofi -show window
+bindsym $alt+l exec /home/dschlack/.config/i3/lock.sh
+# class                 border    backgr.   text    indicator child_border
+client.focused          $coloract $coloract $white  $split $coloract
+client.focused_inactive $coloract $coloract $white  $split $coloract
+client.unfocused        $colorin  $colorin  #888888 $split $colorin
+client.urgent           $coloru   $coloru   $white  $coloru $coloru
+client.placeholder      #000000   #0c0c0c   $white  #000000 #0c0c0c
+
+client.background       #ffffff
+
+# switch to workspace
+workspace 1 output VGA-1
+workspace 2 output VGA-1
+workspace 3 output VGA-1
+workspace 4 output VGA-1
+workspace 5 output VGA-1
+workspace 6 output HDMI-1
+workspace 7 output HDMI-1
+workspace 8 output HDMI-1
+workspace 9 output HDMI-1
+workspace 10 output HDMI-1
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        bindsym l resize shrink width 30 px or 10 ppt
+        bindsym j resize grow height 30 px or 10 ppt
+        bindsym k resize shrink height 30 px or 10 ppt
+        bindsym h resize grow width 30 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "monitor" {
+        bindsym s exec dock-single
+        bindsym d exec dock-dual
+        bindsym t exec thinkpad
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+bindsym $mod+a mode "monitor"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+# bar {
+#         status_command i3status
+# }
+
+# window specific things
+assign [class = "Firefox"] $ws6
+assign [class = "Google-chrome"] $ws1
+assign [class = "zoom"] $ws9
+assign [class = "Evolution"] $ws3
+assign [class = "Remmina"] $ws7
+
+for_window [class = "Firefox"] layout tabbed
+for_window [class = "Google-chrome"] layout tabbed
+for_window [class = "Wpg"] floating enable
+for_window [class = "Remmina"] layout tabbed
+
+bar {
+	font pango:FantasqueSansMono Nerd Font 12
+	position top
+        status_command SCRIPT_DIR=~/blocklets i3blocks
+	i3bar_command i3bar -t
+	mode dock
+	#status_command py3status -c ~/.config/i3status/config
+	colors {
+		background	#002b3600
+		statusline	#313703
+		separator	#002b36
+		focused_workspace	#002b3600 #576306 #002b3600
+		active_workspace	#002b3600 #313703 #002b3600
+		inactive_workspace	#002b3600 #313703 #002b3600
+	}
+}
+# exec --no-startup-id "setxkbmap -option caps:escape"
+# exec --no-startup-id exec volumeicon
+# exec --no-startup-id exec compton
+exec --no-startup-id ~/.config/wpg/wp_init.sh
+exec --no-startup-id exec compton
+exec --no-startup-id i3-msg workspace $ws1
+exec --no-startup-id i3-msg workspace $ws6 
+# exec --no-startup-id polybar -c /home/dschlack/.config/polybar/config wpgtk2
+# exec --no-startup-id polybar -c /home/dschlack/.config/polybnar/config wpgtk1
+# exec_always --no-startup-id exec ~/Code/scripts/polybar.sh

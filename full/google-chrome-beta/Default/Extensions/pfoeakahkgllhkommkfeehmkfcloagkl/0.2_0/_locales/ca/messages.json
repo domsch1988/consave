@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Traieu més profit de les dades amb les taules dinàmiques de Google"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Taules dinàmiques (experimental)"
+   }
+}

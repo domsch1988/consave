@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Google-fuusiotaulukoiden avulla saat enemmän irti tiedoistasi."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google-fuusiotaulukot (kokeellinen)"
+   }
+}

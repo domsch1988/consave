@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Naudokite duomenis įvairesniais būdais naudodami „Google“ duomenų tvarkymo lenteles."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Duomenų tvarkymo lentelės (eksperimentinė versija)"
+   }
+}

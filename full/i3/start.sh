@@ -1,0 +1,9 @@
+#!/bin/sh
+nitrogen --restore &
+# volumeicon &
+compton --config ~/.config/compton.conf -b &
+tint2 &
+lxpolkit &
+#~/.config/polybar/launch.sh
+polybar -c ./.config/polybar/config wpgtk2 &
+polybar -c ./.config/polybar/config wpgtk1

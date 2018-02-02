@@ -1,0 +1,33 @@
+[Added Associations]
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+text/html=mousepad.desktop;firefox.desktop;google-chrome-beta.desktop;org.gnome.gedit.desktop;
+application/octet-stream=mousepad.desktop;libreoffice-calc.desktop;evolution.desktop;
+application/x-designer=org.gnome.gedit.desktop;
+application/xml=mousepad.desktop;org.gnome.gedit.desktop;
+application/x-sharedlib=org.gnome.gedit.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+image/x-xpixmap=org.gnome.gedit.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+text/plain=mousepad.desktop;org.gnome.FileRoller.desktop;
+image/x-xbitmap=eog.desktop;
+application/x-shellscript=mousepad.desktop;gvim.desktop;
+application/x-trash=mousepad.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-xar=org.gnome.Nautilus.desktop;
+application/x-ms-dos-executable=org.gnome.FileRoller.desktop;
+text/css=mousepad.desktop;
+image/png=eog.desktop;
+application/pdf=evince.desktop;
+application/json=mousepad.desktop;
+application/x-theme=mousepad.desktop;panel-desktop-handler.desktop;
+application/javascript=mousepad.desktop;
+inode/symlink=eog.desktop;
+
+[Default Applications]
+text/html=google-chrome-beta.desktop
+x-scheme-handler/http=google-chrome-beta.desktop
+x-scheme-handler/https=google-chrome-beta.desktop
+x-scheme-handler/about=google-chrome-beta.desktop
+x-scheme-handler/unknown=google-chrome-beta.desktop

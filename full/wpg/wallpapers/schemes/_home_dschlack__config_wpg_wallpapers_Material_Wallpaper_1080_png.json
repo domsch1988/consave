@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/Material_Wallpaper_1080.png",
+
+    "special": {
+        "background": "#131515",
+        "foreground": "#fed2ce",
+        "cursor": "#d19e9b"
+    },
+    "colors": {
+        "color0": "#131515",
+        "color1": "#BD3E37",
+        "color2": "#C43F37",
+        "color3": "#98423D",
+        "color4": "#BE433B",
+        "color5": "#C0473F",
+        "color6": "#9E4540",
+        "color7": "#d19e9b",
+        "color8": "#242727",
+        "color9": "#fe473c",
+        "color10": "#fe483b",
+        "color11": "#ef5249",
+        "color12": "#fe4e41",
+        "color13": "#fe5345",
+        "color14": "#f5554c",
+        "color15": "#fed2ce"
+    }
+}

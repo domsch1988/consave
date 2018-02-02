@@ -1,0 +1,4 @@
+3T
+Ultrawide
+magisk
+checksum_v1 = 616843aa03be96b299c15c5973b65d0a

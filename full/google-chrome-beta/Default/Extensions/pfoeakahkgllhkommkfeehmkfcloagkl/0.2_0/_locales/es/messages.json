@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Saca más provecho a tus datos con las tablas dinámicas de Google."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Tablas dinámicas (experimental)"
+   }
+}

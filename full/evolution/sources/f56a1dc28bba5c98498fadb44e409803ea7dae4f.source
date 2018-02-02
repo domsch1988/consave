@@ -1,0 +1,7 @@
+[Data Source]
+DisplayName=dominik.schlack@haubner.com
+Enabled=true
+Parent=77e8c4f30001eba280d5a52f3763a1cd22cc65e7
+
+[Mail Transport]
+BackendName=ews

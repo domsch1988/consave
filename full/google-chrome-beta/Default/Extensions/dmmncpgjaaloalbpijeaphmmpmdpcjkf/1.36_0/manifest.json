@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.androidapplication.mobi/"
+      },
+      "urls": [ "http://www.androidapplication.mobi/" ]
+   },
+   "description": "Download quality and reviewed top ranked Android Applications for FREE !",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHXzz4NIEprkJ2rLHdzkRf+1v2BJ3ck7W6PNK+W7yZG1DjAcdFfTZAK6i7j+AHkOpesfpkx/wQG/CewHC4LFiu5r+0TlhYfy3q71UzWkH+lwOKFiDl86DiWqXliaEixESxU9bNBczq40viImkLzK5JA0UDJSG4fC+bCnSH8bE3mQIDAQAB",
+   "manifest_version": 2,
+   "name": "Android Application",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.36"
+}

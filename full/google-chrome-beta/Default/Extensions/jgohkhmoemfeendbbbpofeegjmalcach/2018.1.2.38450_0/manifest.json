@@ -1,0 +1,26 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://mconline.microcat-service.de/#/ServiceOrderList"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "zod+w32YRSzM10fj88J2StvQRD2RQ5P27AzX7oPcK2Y=",
+   "name": "MCClient",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://mconline.microcat-service.de/*" ],
+         "title": "MCClient"
+      }
+   },
+   "version": "2018.1.2.38450"
+}

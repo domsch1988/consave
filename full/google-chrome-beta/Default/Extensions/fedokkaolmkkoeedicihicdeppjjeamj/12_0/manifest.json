@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://typingscout.com/"
+      },
+      "urls": [ "https://typingscout.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icon_r_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFJ7FmyiQ7iMEKH2drvrhjMfvpS4GBZGKlKrcxsXzo2G3S07YAOU7Z8BKzplyjkMDLbW/5/ZqTRs7rQoMI3bEWDM5MHjFt1JwFLMfdVmIcxc/D8QCQCwUho5putfIeo4niIy7fMQWn8zJVgmusSNiZOIHoSdOxCt3sFpplFNRllQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [  ],
+   "short_name": "Typing Scout",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12"
+}

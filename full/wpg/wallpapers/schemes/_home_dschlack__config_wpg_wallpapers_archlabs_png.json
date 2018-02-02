@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/archlabs.png",
+
+    "special": {
+        "background": "#252627",
+        "foreground": "#f6f8fd",
+        "cursor": "#cbcdd1"
+    },
+    "colors": {
+        "color0": "#252627",
+        "color1": "#5E9184",
+        "color2": "#7A8491",
+        "color3": "#888D95",
+        "color4": "#93A597",
+        "color5": "#9099A5",
+        "color6": "#9BA3AD",
+        "color7": "#cbcdd1",
+        "color8": "#363839",
+        "color9": "#74dec3",
+        "color10": "#95b3d9",
+        "color11": "#a4badc",
+        "color12": "#adeebb",
+        "color13": "#aac7ee",
+        "color14": "#b4d2f7",
+        "color15": "#f6f8fd"
+    }
+}

@@ -1,0 +1,39 @@
+Erweiterung „XFIG Input“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: fig2dev
+
+Erweiterung „Sketch Input“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: skconvert
+
+Erweiterung „Win32 Vector Print“: Laden fehlgeschlagen, da diese Erweiterung nur für Windows entwickelt wurde. Dies wurde durch eine fehlerhafte „.inx“-Datei für diese Erweiterung verursacht. Eine fehlerhafte „.inx“-Datei kann Folge einer Fehlinstallation von Inkscape sein.
+Erweiterung „Dia Input“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: dia
+  Beschreibung: Um Dia-Dateien zu importieren, muss Dia selbst installiert sein. Sie können Dia von http://live.gnome.org/Dia herunterladen.
+
+Erweiterung „DXF Output“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: pstoedit
+  Beschreibung: pstoedit muss installiert sein, um diese Funktion nutzen zu können. Siehe http://www.pstoedit.net/pstoedit
+
+Erweiterung „GIMP XCF“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: gimp
+
+Erweiterung „LaTeX“: Laden fehlgeschlagen, da eine Abhängigkeit nicht aufgelöst werden konnte.
+Abhängigkeit:
+  Typ: executable
+  Speicherort: Pfad
+  Zeichenkette: pstoedit
+

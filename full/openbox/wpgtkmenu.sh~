@@ -1,0 +1,12 @@
+#! /bin/bash
+
+entrys="$(wpg -l)"
+
+for entry in $entrys
+do
+	echo "<item label =\"$entry\">"
+	echo "<action name=\"Execute\">"
+	echo "<execute>wpg -z $entry</execute>"
+	echo "</action>"
+	echo "</item>"	
+done

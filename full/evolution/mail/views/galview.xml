@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<GalViewCollection>
+  <GalView id="Messages" title="_Nachrichten" filename="Messages.galview" type="etable"/>
+</GalViewCollection>

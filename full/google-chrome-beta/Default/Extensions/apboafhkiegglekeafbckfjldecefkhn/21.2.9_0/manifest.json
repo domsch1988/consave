@@ -1,0 +1,29 @@
+{
+   "api_console_project_id": "7081045131",
+   "app": {
+      "launch": {
+         "web_url": "https://www.lucidchart.com/documents/driveApp"
+      },
+      "urls": [ "*://www.lucidchart.com/" ]
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "chrome_app_icon.png"
+   },
+   "intents": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://www.lucidchart.com/documents/driveApp",
+         "title": "Open",
+         "type": [ "application/vnd.google.drive.ext-type.vsd", "application/vnd.google.drive.ext-type.vdx", "application/vnd.google.drive.ext-type.vsdx", "application/vnd.google.drive.ext-type.vsdm", "application/vnd.google.drive.ext-type.gliffy", "application/vnd.google.drive.ext-type.graffle" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCz5dPvxYTsBs5k67HPDpvPpoC9NJQg/Nd2yJhAHEFKdK/cASCVY6YRsuzIKKe4IyW1FlLQNnWBiRKZAlJu2hwiFNqtjx5iuYVIq0j6PZaRRLjzxwyZ0OyhDFRFnwXSjTkgTXaQtmrLbJVUB4mbmORzOqL4dupaRdvcfi87VVxrqQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "notifications", "clipboardRead", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "21.2.9"
+}

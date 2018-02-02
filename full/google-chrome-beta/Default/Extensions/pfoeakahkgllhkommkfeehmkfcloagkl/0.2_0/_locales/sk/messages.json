@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Využite údaje čo najlepšie pomocou Dynamických tabuliek Google."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Dynamické tabuľky na Disku Google (experimentálna funkcia)"
+   }
+}

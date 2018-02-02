@@ -1,0 +1,52 @@
+[Adblock Plus 2.0]
+! Title: uBlock filters -- Annoyances
+! Description: Filters optimized for uBlock Origin, to be used with Fanboy's
+!              and/or Adguard's "Annoyances" list(s)
+! Expires: 8 days
+! License: http://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/uBlockOrigin/uAssets
+! Forums: https://github.com/uBlockOrigin/uAssets/issues
+
+! https://github.com/uBlockOrigin/uAssets/issues/1026
+buzzfeed.com##[id^="mod-newsletter-signup-"]
+
+! https://www.reddit.com/r/uBlockOrigin/comments/7l54xr/metro_copyjacking_filter/
+metro.co.uk##script:inject(addEventListener-defuser.js, copy, BLACKLIST)
+
+! https://github.com/uBlockOrigin/uAssets/issues/1069
+||nerdmaldito.com^$inline-script
+
+! https://github.com/uBlockOrigin/uAssets/issues/1118
+||portaleds.com^$inline-script
+
+! https://www.reddit.com/r/uBlockOrigin/comments/7imqbx/firefox_quantum_working_antiadblockkill
+libgen.io##script:inject(setTimeout-defuser.js, ad blocking)
+
+! https://forums.lanik.us/viewtopic.php?f=62&t=36339
+! https://github.com/uBlockOrigin/uAssets/issues/1144#issuecomment-354648833
+! https://github.com/uBlockOrigin/uAssets/issues/909
+! https://github.com/uBlockOrigin/uAssets/issues/1163
+! https://github.com/jspenguin2017/uBlockProtector/issues/789
+! https://github.com/jspenguin2017/uBlockProtector/issues/790
+! re-enabling of right-click functionality
+adbilty.me##script:inject(abort-on-property-write.js, clickIE)
+freewebscript.com##script:inject(abort-current-inline-script.js, $, contextmenu)
+italiashare.life##script:inject(abort-on-property-write.js, killCopy)
+linkurl.org##script:inject(abort-current-inline-script.js, $, contextmenu)
+linkurl.org,planetatvonlinehd.com##script:inject(abort-on-property-write.js, document.oncontextmenu)
+skidrowgamesreloaded.com##script:inject(abort-on-property-write.js, contentprotector)
+
+! https://github.com/uBlockOrigin/uAssets/issues/1150
+playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
+
+! https://github.com/uBlockOrigin/uAssets/issues/1155
+comandotorrents.com###box
+
+! https://github.com/uBlockOrigin/uAssets/issues/1171
+weather.com##script:inject(abort-on-property-read.js, _sp_._networkListenerData)
+
+! https://github.com/uBlockOrigin/uAssets/issues/167
+youtube.com###dismissable:has-text(Recommended)
+
+! enable right click on igram
+igram.im##script:inject(abort-on-property-write.js, document.oncontextmenu)

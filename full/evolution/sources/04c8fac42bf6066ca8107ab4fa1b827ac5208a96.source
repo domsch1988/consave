@@ -1,0 +1,48 @@
+[Data Source]
+DisplayName=dominik.schlack@haubner.com
+Enabled=true
+Parent=77e8c4f30001eba280d5a52f3763a1cd22cc65e7
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://a35f95b62ff09c37c8d781ebbde853137f8019d6/Entw%c3%bcrfe
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=on
+
+[Mail Identity]
+Address=dominik.schlack@haubner.com
+Aliases=
+Name=Dominik Schlack
+Organization=Haubner IT
+ReplyTo=
+SignatureUid=f30a1d5d586b25f5bb3fd83b6a8121a1c72a70d3
+
+[Mail Submission]
+SentFolder=folder://a35f95b62ff09c37c8d781ebbde853137f8019d6/Gesendete%20Elemente
+TransportUid=f56a1dc28bba5c98498fadb44e409803ea7dae4f
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=181B7553
+SigningAlgorithm=
+SignByDefault=true
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

@@ -1,0 +1,1 @@
+/home/dschlack/arc-theme/1-change-color.sh

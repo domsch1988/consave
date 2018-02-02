@@ -1,0 +1,22 @@
+{
+   "api_console_project_id": "119415359491",
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://www.mindmeister.com/account/redirect_login_google"
+      },
+      "urls": [ "http://www.mindmeister.com/" ]
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "description": "Create, edit and share mind maps online. Also works with Google Drive!",
+   "icons": {
+      "128": "icon_128x128.png",
+      "16": "icon_16x16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCo3MIMnEv17gzdk4HRv6CrQrtTYyF6RDV7vNu83lvdSKb9ZktmASBOJGaeu71HBiz7DFlDVw6n/LBD7OM4Lxq+rwYhQRIyuPvWxL9RRBUd6OpqhL4ow3krQJJIxzDYN7YHwwlBOtz0FC8tZfnusfwrEyVBToT4jbTHk6BUaWE4JwIDAQAB",
+   "manifest_version": 2,
+   "name": "MindMeister",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.1"
+}

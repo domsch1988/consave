@@ -1,0 +1,28 @@
+{
+   "api_console_project_id": "1005542825533",
+   "app": {
+      "launch": {
+         "web_url": "https://www.picmonkey.com/"
+      },
+      "urls": [ "*://www.picmonkey.com/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "PicMonkey's photo editing and design tools help you create dazzling images that will wow your social sphere and boost your business.",
+   "icons": {
+      "128": "PicMonkey_128.png"
+   },
+   "intents": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://www.picmonkey.com/",
+         "title": "Open",
+         "type": [ "image/png", "image/jpeg", "application/vnd.google.drive.ext-type.png", "application/vnd.google.drive.ext-type.jpeg", "application/vnd.google.drive.ext-type.jpg" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDd+clbx2fzqDrcESjfGGYhV2P3P+vDpqKtqG58rzjwpiMogY0/WUsSTRmTV3JnqiXC9YDGeYmxq52JhxpInkVugTNdYQdMEay9kTObZcZTqTDkJ3qiL/FawshqfLD1rRJDzWlypoxnUFHahEnQQBmH9frgmP2gSNZZYFW/V77P8QIDAQAB",
+   "manifest_version": 2,
+   "name": "PicMonkey",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.1"
+}

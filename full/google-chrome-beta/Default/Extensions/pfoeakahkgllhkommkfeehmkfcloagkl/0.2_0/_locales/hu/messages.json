@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "A Google Fusion Tables segítségével többet hozhat ki adataiból."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Fusion Tables (kísérleti funkció)"
+   }
+}

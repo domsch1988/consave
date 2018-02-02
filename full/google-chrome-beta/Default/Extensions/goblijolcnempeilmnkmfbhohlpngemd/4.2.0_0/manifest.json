@@ -1,0 +1,29 @@
+{
+   "api_console_project_id": "66351547828",
+   "app": {
+      "launch": {
+         "web_url": "https://dsgoogle.docusign.net/start-oauth-process/gdrive"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "intents": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://dsgoogle.docusign.net/start-oauth-process/gdrive",
+         "title": "Open",
+         "type": [ "text/plain", "text/plainapplication/msexcel", "text/xml", "text/html", "application/pdf", "application/x-pdf", "application/vnd.ms-excel", "application/ms", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/msword", "application/vnd.ms-powerpoint", "application/vnd.ms-excel", "application/vnd.ms-word.document.macroenabled.12", "application/vnd.ms-excel.addin.macroenabled.12", "image/bmp", "image/png", "image/jpeg", "image/gif", "image/tif", "application/vnd.google.drive.ext-type.txt", "application/vnd.google.drive.ext-type.text", "application/vnd.google.drive.ext-type.pdf", "application/vnd.google.drive.ext-type.doc", "application/vnd.google.drive.ext-type.docx", "application/vnd.google.drive.ext-type.ppt", "application/vnd.google.drive.ext-type.pptx", "application/vnd.google.drive.ext-type.xls", "application/vnd.google.drive.ext-type.xlsx", "application/vnd.google.drive.ext-type.rtf", "application/vnd.google.drive.ext-type.wpd", "application/vnd.google.drive.ext-type.html", "application/vnd.google.drive.ext-type.htm", "application/vnd.google.drive.ext-type.xhtml", "application/vnd.google.drive.ext-type.bmp", "application/vnd.google.drive.ext-type.tif", "application/vnd.google.drive.ext-type.tiff", "application/vnd.google.drive.ext-type.png", "application/vnd.google.drive.ext-type.jpg", "application/vnd.google.drive.ext-type.jpeg", "application/vnd.google.drive.ext-type.gif" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDaSVphucozx6T1YBzFGwczgLEvEiOmZmTkXJUkNAAbzLn1GfGusrgvNkgBG1r/g0aAJ5rxmSpcuxM0e18xA1DBkVQQmN3/qCV4IHfWvCFdU3NYi5+A+Zi7CLe+Q7Xy+7J/vNT8aDrxXtjHgp0iymV0/hSp1E/R6cXgk9U2w6e60wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "short_name": "DocuSign",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2.0"
+}

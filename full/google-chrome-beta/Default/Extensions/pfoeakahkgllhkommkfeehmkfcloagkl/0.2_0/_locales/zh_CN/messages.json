@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "使用 Google 数据融合表深入了解数据"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google 云端硬盘数据融合表（实验性）"
+   }
+}

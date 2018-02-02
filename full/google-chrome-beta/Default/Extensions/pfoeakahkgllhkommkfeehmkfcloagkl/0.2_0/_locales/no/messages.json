@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Supertabeller i Google Disk (eksperimentelt))",
+    "description": "App name."
+  },
+  "appDesc": {
+    "message": "Få mer ut av dataene med Google Supertabeller.",
+    "description": "App description."
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/dschlack/.config/wpg/wallpapers/abst1.jpg",
+
+    "special": {
+        "background": "#010208",
+        "foreground": "#e1fefe",
+        "cursor": "#c6e1f1"
+    },
+    "colors": {
+        "color0": "#010208",
+        "color1": "#43627F",
+        "color2": "#17619C",
+        "color3": "#3971A4",
+        "color4": "#328FCF",
+        "color5": "#5FA5D4",
+        "color6": "#5AABE1",
+        "color7": "#c6e1f1",
+        "color8": "#030829",
+        "color9": "#5695cf",
+        "color10": "#1598fe",
+        "color11": "#42a4fe",
+        "color12": "#33c9fe",
+        "color13": "#69defe",
+        "color14": "#61e5fe",
+        "color15": "#e1fefe"
+    }
+}
