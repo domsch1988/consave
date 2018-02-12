@@ -1,44 +1,35 @@
+SPACESHIP_PROMPT_ORDER=(
+ time          # Time stampts section
+ user          # Username section
+ host
+ dir           # Current directory section
+ git           # Git section (git_branch + git_status)
+ package       # Package version
+ exec_time     # Execution time
+ exit_code
+ line_sep      # Line break
+ vi_mode       # Vi-mode indicator
+ jobs          # Background jobs indicator
+ char          # Prompt character
+)
 
 # User Configuration
-POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_STATUS_CROSS=true
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator ip dir_writable dir rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs history time)
-POWERLEVEL9K_LINUX_ICON=$' \uF300'
-POWERLEVEL9K_OK_ICON=
-POWERLEVEL9K_FAIL_ICON=
-POWERLEVEL9K_HOME_ICON=
-POWERLEVEL9K_HOME_SUB_ICON=
-POWERLEVEL9K_ROOT_INDICATOR_BACKGROUND='red'
-POWERLEVEL9K_ROOT_INDICATOR_FOREGROUND='yellow'
-POWERLEVEL9K_OS_ICON_BACKGROUND='blue'
-POWERLEVEL9K_OS_ICON_FOREGROUND=''
-POWERLEVEL9K_IP_BACKGROUND='green'
-POWERLEVEL9K_IP_FOREGROUND='foreground'
-POWERLEVEL9K_DIR_HOME_BACKGROUND='yellow'
-POWERLEVEL9K_DIR_HOME_FOREGROUND='foreground'
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='yellow'
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='foreground'
-POWERLEVEL9K_DIR_WRITABLE_BACKGROUND='yellow'
-POWERLEVEL9K_STATUS_OK_BACKGROUND='black'
-POWERLEVEL9K_STATUS_ERROR_BACKGROUND='black'
-POWERLEVEL9k_STATUS_OK_FOREGROUND='green'
-POWERLEVEL9K_STATUS_ERROR_FOREGROUND='red'
-POEWRLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='red'
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='foreground'
-POWERLEVEL9K_TIME_BACKGROUND='yellow'
-POWERLEVEL9K_TIME_FOREGROUND='foreground'
-POWERLEVEL9K_HISTORY_BACKGROUND='blue'
-POWERLEVEL9K_HISTORY_FOREGROUND='foreground'
-POWERLEVEL9K_ROOT_ICON=$'\uE74F'
-POWERLEVEL9K_USER_ICON=
-POWERLEVEL9K_FOLDER_ICON=
-POWERLEVEL9K_LOCK_ICON=
-POWERLEVEL9K_EXECUTION_TIME_ICON=
-POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0BC '
-POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$' \uE0BE'
+SPACESHIP_HOST_SHOW='always'
+SPACESHIP_USER_SHOW='always'
+SPACESHIP_PROMPT_DEFAULT_SUFFIX=']'
+SPACESHIP_PROMPT_DEFAULT_PREFIX=$'╾╼['
+SPACESHIP_TIME_FORMAT='%t'
+SPACESHIP_DIR_PREFIX=$'╾╼['
+SPACESHIP_USER_PREFIX=$'╾╼['
+SPACESHIP_USER_SUFFIX=''
+SPACESHIP_PROMPT_SYMBOL=$'╰╼'
+SPACESHIP_TIME_PREFIX='['
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_HOST_PREFIX='@'
+SPACESHIP_EXIT_CODE_PREFIX=$'╾╼['
+SPACESHIP_EXIT_CODE_SUFFIX=']'
+SPACESHIP_EXIT_CODE_SYMBOL=''
 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -48,7 +39,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="spaceship"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -110,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=de_DE.UTF-8
+# export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -133,5 +124,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# (cat ~/.cache/wal/sequences &)
